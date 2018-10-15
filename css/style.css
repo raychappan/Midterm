@@ -1,0 +1,45 @@
+body{ 
+	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+nav a { color: rgb(80,190,190);
+display: table-row;
+text-align: center;
+justify-content: space-between; }
+
+nav a:hover {
+ 	font-weight: 700;
+ }
+
+
+
+h1 {color: rgb(80,190,190);
+	text-align: center; }
+
+h1:hover {
+	color: rgb(242,246,246);
+	transition: .5s;
+}
+
+p {color: rgb(242,246,246); font-family: open-sans;
+}
+
+h2 {color: rgb(121,129,129);
+}
+
+#maindiv {text-align: center;
+}
+
+#homepage {
+	display: inline-block;
+	width: 30%;
+}
+
+/* for figvaption, write out the caption regularly and then have them be displayed as block/*
+
+#homepage {
+	display: inline-block;
+	width: 30%;
+}

@@ -1,0 +1,43 @@
+body { 
+	background-color: rgb(121,129,129);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400; font-style: bold;
+}
+
+nav a { 
+	color: black;
+	justify-content: space-between;
+	display: table-row;
+	text-align: center;
+ }
+
+ nav a:hover {
+ 	font-weight: 700;
+ }
+
+ul{font-weight: 400;
+font-style: bold;}
+
+#maindiv {text-align: center; display: inline-block;
+}
+
+
+h1  {text-align: center;
+	color: rgb(80,190,190);
+}
+
+h1:hover {
+	color: rgb(242,246,246);
+	transition: .5s;
+}
+
+p {font-weight: 400;
+color: black;
+text-align: center;
+font-style: bold;}
+
+#contactpage {
+	display: inline-block;
+	width: 30%;
+}
+

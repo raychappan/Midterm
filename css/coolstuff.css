@@ -1,0 +1,80 @@
+body {background-color: #F2F6F6;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: black;
+	}
+
+nav a { 
+	color: rgb(80,190,190);
+	justify-content: space-between;
+	display: table-row;
+	text-align: center;
+ }
+
+ nav a:hover {
+ 	font-weight: 700;
+ }
+
+h1 {color: rgb(80,190,190);
+text-align: center;
+}
+
+h1:hover {
+	color: black;
+	transition: .5s;
+}
+
+@keyframes color-change {
+	0% {background-color: rgb(80,190,190);}
+	25% {background-color: black;}
+	50% {background-color: rgb(121,129,129);}
+	75% {background-color: navy;}
+}
+
+@keyframes color-move {
+	0% {background-color: rgb(80,190,190); left: 30px; top: 0px;}
+	25% {background-color: black; left: 1150px; top: 0px;}
+	50% {background-color: rgb(121,129,129); left: 1150px; top: 200px;}
+	75% {background-color: navy; left: 30px; top: 200px;}
+	100% {background-color: rgb(80,190,190); left: 30px; top: 0px;}
+}
+#box {
+	width: 200px;
+	height: 200px;
+	background-color: rgb(80,190,190);
+	position: relative;
+
+
+animation-name: color-move ;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+
+display: flex;
+display: inline-block;
+text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
